@@ -1,1 +1,2 @@
-Hello ! world
+day_01_cpp_setup_vscode
+Set the git repo to push all upcoming dsa code
