@@ -12,3 +12,6 @@
 ".vscode/" 
 "*.exe" 
 "*.log" 
+# Ignore the input.txt n output.txt
+input.txt
+output.txt
