@@ -12,5 +12,11 @@ int main(){
     long long ll_max=LLONG_MAX;
     long long ll_min=LLONG_MIN;
     cout<<int_min<<endl<<int_max<< endl<<long_num<<endl<<numlong<<endl<<ll_max<<endl<<ll_min<<endl;
+    float int_float=14.9502859; // float can store till 7 precision after decimal 
+    double int_double= 87.0348238453427689; //doublw can store till 15 precision after decimal
+    cout << int_float << endl << int_double<<endl;
+    char int_char='p';
+    string int_str= "Hello! let us code";
+    cout<< int_char <<endl<<int_str<<endl;
     return 0;
 }
