@@ -7,7 +7,7 @@ using namespace std;
  * Prompts the user to enter a day number (1-7) and displays the corresponding day of the week.
  * Utilizes a switch-case statement to map the input number to a day name.
  * If the input is not between 1 and 7, displays an error message.
- * 
+ 
  * @return int Returns 0 upon successful execution.
  * when to use switch case? 
  * when The decision is based on one variable tested against multiple constant values.
