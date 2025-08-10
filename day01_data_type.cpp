@@ -5,7 +5,7 @@ using namespace std;
  *
  * This program prints the minimum and maximum values for int, long, and long long types,
  * as well as examples of float and double precision. It also shows usage of char and string types.
- *
+
  * - int: Typically stores values from -2,147,483,648 to 2,147,483,647 (system dependent).
  * - long: Range is system dependent, commonly -2,147,483,648 to 2,147,483,647 or larger.
  * - long long: Can store very large values, up to ±9,223,372,036,854,775,807 (system dependent).
