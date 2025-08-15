@@ -3,7 +3,6 @@ using namespace std;
 
 /**
  *  Prints a pattern of numbers based on user input.
- *
  * The program reads an integer 'n' from standard input and prints 'n' lines.
  * Each line 'i' contains numbers from 1 to 'i' in increasing order.
  * For example, if n = 3, the output will be:
