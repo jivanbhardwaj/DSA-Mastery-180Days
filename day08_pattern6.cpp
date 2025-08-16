@@ -1,6 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/**
+ * Prints a right-angled triangle pattern of numbers with decreasing rows.
+ * 
+ * The program reads an integer 'n' from standard input and prints 'n' rows.
+ * Each row starts with 1 and prints numbers from 1 to (n - i + 1) where 'i' is the current row index.
+ * For example, if n = 4, the output will be:
+ * 1234
+ * 123
+ * 12
+ * 1
+ */
+
 int main() {
     int n;
     cin >> n; // Read the number of elements in the array
