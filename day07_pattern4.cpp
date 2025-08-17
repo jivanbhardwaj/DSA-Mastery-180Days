@@ -8,6 +8,7 @@ using namespace std;
 55555
 This function reads an integer 'n' from standard input and prints a pattern of numbers.
 Each row contains the row number repeated 'i' times, where 'i' is the current
+
 */
 int main() {
     int n;
