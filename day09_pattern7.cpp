@@ -17,7 +17,7 @@ using namespace std;
  */
 int main() {
     int n,i,j;
-    cin >> n; // Read the number of elements in the array   
+    cin >> n;    
     for(i=1; i<=n; i++) {
         for(j=1; j<=n-i; j++) {
             cout << " "; // Print space from the current row index to n
