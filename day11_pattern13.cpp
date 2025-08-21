@@ -16,7 +16,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         // Print increasing numbers
         for (j = 1; j <= i; j++) {
-            cout << num;
+            cout << num << " ";
             num++;
         }
         cout<<endl;
