@@ -8,6 +8,7 @@ DDDD
 EEEEE
 FFFFFF
 GGGGGGG
+
 */
 int main() {
     int i,j,n;
