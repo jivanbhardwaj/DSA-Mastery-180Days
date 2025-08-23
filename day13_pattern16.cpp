@@ -1,11 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+*/
 int main() {
     int i,j,n;
-    cin >> n; // Read the number of rows from input 
-    char ch='A'; // Starting character
-    for(i=0; i<=n-1; i++) { // Loop to print n rows                     
+    cin >> n; 
+    char ch='A'; 
+    for(i=0; i<=n-1; i++) {                   
         for(j=0; j<=i; j++) { 
             cout <<char(ch+i); 
         cout << endl;
