@@ -16,10 +16,12 @@ int main() {
     int i,j,n;
     cin >> n; 
     char ch='A'; 
-    for(i=0; i<=n-1; i++) {                   
-        for(j=0; j<=i; j++) { 
+    for(int i=0; i<=n-1; i++) {                    
+        for(int j=0; j<=i; j++) { 
             cout <<char(ch+i); 
-        cout << endl;
+        
+    }
+    cout << endl;
     }
     return 0;
 }
