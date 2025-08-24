@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-
 A
 BB
 CCC
@@ -9,7 +8,6 @@ DDDD
 EEEEE
 FFFFFF
 GGGGGGG
-
 
 */
 int main() {
