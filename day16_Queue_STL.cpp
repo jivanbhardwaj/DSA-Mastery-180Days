@@ -17,6 +17,6 @@ void explainQueue() {
 
 
 int main() {
-    
+    explainQueue();
     return 0;
 }
