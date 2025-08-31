@@ -10,7 +10,11 @@ void explainVector(){
         cout << v[i] << " "; // Accessing elements using indexing.
     }
     cout << endl;
-    
+    // Below auto will do same thing as what for loop does above
+    for(auto i : v)
+    cout << i <<" ";
+    cout << endl;
+
     cout << "Vector size: " << v.size() << endl; // Getting the size of the vector.
     
     v.pop_back(); // Removing the last element from the vector.
@@ -20,7 +24,19 @@ void explainVector(){
         cout << v[i] << " ";
     }
     cout << endl;
-    
+    for(auto i : v)
+    cout << i <<" ";
+    cout << endl;
+    cout << "Vector size: " << v.size() << endl; // Getting the size of the vector.
+
+    v.pop_back(); // Removing the last element from the vector.
+
+    cout << "Vector after pop_back: ";
+    for(int i = 0; i < v.size(); i++) {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+
     cout << "Vector size after pop_back: " << v.size() << endl;
 
 }
