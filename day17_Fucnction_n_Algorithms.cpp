@@ -65,13 +65,24 @@ void explainNextPermutation(){
     } while (next_permutation(str.begin(), str.end()));
 }
 
+
+void explainReverse(){
+    int arr[5] = {1, 2, 3, 4, 5};
+    reverse(arr, arr + 5);  
+ for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
 int main() {
     // explainSort();
    // explainAccumulate();
    // explainCount();
    // explainFind();
    //explainComparator();
-   
-    explainNextPermutation();
+
+    //explainNextPermutation();
+
+    explainReverse();
     return 0;
 }
