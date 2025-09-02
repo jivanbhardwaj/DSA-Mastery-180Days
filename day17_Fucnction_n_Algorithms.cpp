@@ -49,10 +49,28 @@ void explainFind(){
     }
 }
 
+void explainComparator(){
+    vector<int> vec = {1, 2, 3, 4, 5};
+    sort(vec.begin(), vec.end(), greater<int>());
+    for (auto i: vec) {
+        cout << i << " ";
+    }
+    cout << endl;
+}
+
+void explainNextPermutation(){
+    string str = "abc";
+ do {
+        cout << str << endl;
+    } while (next_permutation(str.begin(), str.end()));
+}
+
 int main() {
     // explainSort();
    // explainAccumulate();
    // explainCount();
-    explainFind();
+   // explainFind();
+   //explainComparator();
+    explainNextPermutation();
     return 0;
 }
