@@ -16,8 +16,8 @@ using namespace std;
 void explainSort(){
     int arr[5] = {5, 2, 8, 1, 3};
     sort(arr, arr + 5);
-    for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";
+    for (auto i: arr) {
+        cout << i<< " ";
     }
     cout << endl;
     vector<int> vec = {34, 434, 545, 2323, 223};
@@ -74,15 +74,16 @@ void explainReverse(){
     }
     cout << endl;
 }
+
 int main() {
-    // explainSort();
-   // explainAccumulate();
+     explainSort();
+   //explainAccumulate();
    // explainCount();
    // explainFind();
    //explainComparator();
 
     //explainNextPermutation();
 
-    explainReverse();
+    //explainReverse();
     return 0;
 }
